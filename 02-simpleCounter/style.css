@@ -6,6 +6,7 @@ body {
 }
 
 .container {
+  width: 400p;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -14,25 +15,27 @@ body {
   transform: translate(-50%, -50%);
 }
 h1 {
-  margin-left: 38%;
+  margin-left: 41%;
 }
 #value {
   color: #000;
   font-size: 60px;
   padding: 20px;
-  margin-left: 42%;
+  margin-left: 45%;
   margin-bottom: 50px;
 }
 .btn-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 400px;
+  flex-wrap: wrap;
+  width: 100%;
   margin-top: 30px;
+  padding: 20px;
 }
 .btn {
   background-color: transparent;
-  border: 2px solid blue;
+  border: 2px solid #368df7;
   color: #000;
   padding: 10px 32px;
   border-radius: 5px;
@@ -42,4 +45,8 @@ h1 {
   font-size: 16px;
   box-shadow: 0 4px 8px 0 rgba(238, 235, 235, 0.2);
   cursor: pointer;
+}
+.btn:hover {
+  background-color: #368df7;
+  color: #fff;
 }
