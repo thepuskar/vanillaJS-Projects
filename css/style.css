@@ -16,7 +16,7 @@ Variables
   --clr-primary-3: hsl(205, 72%, 37%);
   --clr-primary-4: hsl(205, 63%, 48%);
   /* primary/main color */
-  --clr-primary-5: #49a6e9;
+  --clr-primary-5: #007bff;
   /* lighter shades of primary color */
   --clr-primary-6: hsl(205, 89%, 70%);
   --clr-primary-7: hsl(205, 90%, 76%);
@@ -83,7 +83,7 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: #007bff;
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
@@ -107,7 +107,7 @@ nav {
 }
 .links a:hover {
   background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  color: #007bff;
   padding-left: 1.5rem;
 }
 .social-icons {
@@ -156,14 +156,25 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: var(--clr-primary-5);
+    color: #007bff;
     transition: var(--transition);
   }
   .social-icons a:hover {
     color: var(--clr-primary-7);
   }
 }
-
+.title {
+  margin-top: 4rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.underline {
+  height: 0.2rem;
+  width: 10rem;
+  background: #007bff;
+  margin-left: auto;
+  margin-right: auto;
+}
 .main {
   display: flex;
   align-items: center;
