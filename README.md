@@ -11,3 +11,8 @@ Collection of 15 different basic vanilla JavaScript projects
 
 <p>Here we can increase , decrease and reset the number</p>
 <img src="./img/02.png" alt="project 01" />
+
+## 02) Review
+
+<p>In this project, we can see clients reviews and even see random review on click</p>
+<img src="./img/03.png" alt="project 01" />
