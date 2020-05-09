@@ -15,6 +15,15 @@ const list = [
     href: "02-simpleCounter/index.html",
     alt: "counter",
   },
+  {
+    id: 3,
+    title: "Reviews",
+    img: "./img/03.png",
+    text:
+      "Here we can see the different client reviews and even see the radom one.",
+    href: "03-review/index.html",
+    alt: "reviews",
+  },
 ];
 
 const container = document.getElementById("main");
