@@ -225,9 +225,9 @@ nav {
 }
 /* BY DEFAULT HIDE LINKS */
 .links {
-  /* height: 0;
-    overflow: hidden;
-    transition: var(--transition); */
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
 }
 /* TOGGLE CLASS */
 .show-links {
