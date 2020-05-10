@@ -4,7 +4,7 @@ const list = [
     title: "Background Color Picker",
     img: "./img/01.png",
     text: "Here, we can change the Background color and see that color code",
-    href: "01-backgroundColor/index.html",
+    href: "backgroundColor",
     alt: "background color picker",
   },
   {
@@ -12,7 +12,7 @@ const list = [
     title: "Counter",
     img: "./img/02.png",
     text: "In this project, we can Increase, decrease and reset the numbers.",
-    href: "02-simpleCounter/index.html",
+    href: "simpleCounter",
     alt: "counter",
   },
   {
@@ -21,8 +21,17 @@ const list = [
     img: "./img/03.png",
     text:
       "Here we can see the different client reviews and even see the radom one.",
-    href: "03-review/index.html",
+    href: "review",
     alt: "reviews",
+  },
+  {
+    id: 4,
+    title: "Menu",
+    img: "./img/04.png",
+    text:
+      "In this project, we can see different menu items and choose that item according to the category.",
+    href: "menu",
+    alt: "menu",
   },
 ];
 
