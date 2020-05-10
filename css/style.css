@@ -167,6 +167,9 @@ nav {
   margin-top: 4rem;
   text-align: center;
   margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .underline {
   height: 0.2rem;
@@ -175,16 +178,23 @@ nav {
   margin-left: auto;
   margin-right: auto;
 }
+.text {
+  width: 15rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--clr-grey-5);
+  font-size: 14px;
+}
 .main {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 40px;
   align-items: stretch;
 }
 .card {
-  margin: 5px 20px;
+  margin: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }

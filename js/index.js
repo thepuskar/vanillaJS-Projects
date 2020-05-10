@@ -4,7 +4,7 @@ const list = [
     title: "Background Color Picker",
     img: "./img/01.png",
     text: "Here, we can change the Background color and see that color code",
-    href: "backgroundColor",
+    href: "backgroundColorPicker",
     alt: "background color picker",
   },
   {
