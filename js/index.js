@@ -33,6 +33,15 @@ const list = [
     href: "menu",
     alt: "menu",
   },
+  {
+    id: 5,
+    title: "Weather App",
+    img: "./img/05.png",
+    text:
+      "Weather app in Vanilla Javascript, CSS, and HTML. I use the Open Weather Map API to make calls to a restful API to return the current weather data.",
+    href: "weather-app",
+    alt: "weather app",
+  },
 ];
 
 const container = document.getElementById("main");
