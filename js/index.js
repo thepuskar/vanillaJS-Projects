@@ -69,3 +69,9 @@ const links = document.querySelector(".links");
 navToggle.addEventListener("click", function () {
   links.classList.toggle("show-links");
 });
+
+//footer
+var date = document.getElementById("date");
+var d = new Date();
+var n = d.getFullYear();
+date.innerHTML = n;

@@ -201,3 +201,37 @@ nav {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
+
+/* footer */
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+  background: #fff;
+  position: relative;
+  margin-top: 4rem;
+}
+.copyright-area {
+  background: #fff;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #212529;
+}
+.copyright-text p a {
+  color: #007bff;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a {
+  color: #007bff;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
