@@ -163,6 +163,7 @@ nav {
     color: var(--clr-primary-7);
   }
 }
+
 .title {
   margin-top: 4rem;
   text-align: center;
@@ -236,4 +237,10 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    margin: 20px 0px;
+  }
 }
