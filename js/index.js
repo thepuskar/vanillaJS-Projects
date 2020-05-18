@@ -42,6 +42,15 @@ const list = [
     href: "weather-app",
     alt: "weather app",
   },
+  {
+    id: 6,
+    title: "Tetris Game",
+    img: "./img/06.jpg",
+    text:
+      "This is a simple no nonsense version of Tetris game made up of different JavaScript functions and basic html/css",
+    href: "tetrisgame",
+    alt: "tetrisgame",
+  },
 ];
 
 const container = document.getElementById("main");
