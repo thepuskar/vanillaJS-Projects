@@ -6,6 +6,7 @@ const list = [
     text: "Here, we can change the Background color and see that color code",
     href: "backgroundColorPicker",
     alt: "background color picker",
+    target: "_blank",
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const list = [
     text: "In this project, we can Increase, decrease and reset the numbers.",
     href: "simpleCounter",
     alt: "counter",
+    target: "_blank",
   },
   {
     id: 3,
@@ -23,6 +25,7 @@ const list = [
       "Here we can see the different client reviews and even see the radom one.",
     href: "review",
     alt: "reviews",
+    target: "_blank",
   },
   {
     id: 4,
@@ -32,6 +35,7 @@ const list = [
       "In this project, we can see different menu items and choose that item according to the category.",
     href: "menu",
     alt: "menu",
+    target: "_blank",
   },
   {
     id: 5,
@@ -41,6 +45,7 @@ const list = [
       "Weather app in Vanilla Javascript, CSS, and HTML. I use the Open Weather Map API to make calls to a restful API to return the current weather data.",
     href: "weather-app",
     alt: "weather app",
+    target: "_blank",
   },
   {
     id: 6,
@@ -50,6 +55,17 @@ const list = [
       "This is a simple no nonsense version of Tetris game made up of different JavaScript functions and basic html/css",
     href: "tetrisgame",
     alt: "tetrisgame",
+    target: "_blank",
+  },
+  {
+    id: 7,
+    title: "Calendar",
+    img: "./img/07.png",
+    text:
+      "A simple, lightweight, vanilla JavaScript calendar that allows you to filter dates, set events in a particular date, enable/disable past dates, and much more.",
+    href: "calendar",
+    alt: "calendar",
+    target: "_blank",
   },
 ];
 
@@ -69,6 +85,7 @@ list.forEach((result) => {
 </p>
 <a
   href=${result.href}
+  target=${result.target}
   class="btn btn-primary"
   >Click to view</a
 >
