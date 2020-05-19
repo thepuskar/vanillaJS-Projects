@@ -7,6 +7,14 @@ Collection of different basic vanilla JavaScript projects coded with basic JavaS
 
 <p> If you’re interested in becoming a web developer, JavaScript is one of the best coding languages you can learn—but getting familiar with JavaScript basics means using those skills to build JavaScript projects. Need a little help coaxing inspiration to strike? I have put together a list of different JavaScript projects you can start working on. </p>
 
+## ⚙️ Technologies used:
+
+- Vanillia JavaScript
+- HTML5
+- CSS3
+- Netlify
+- Git/GitHub
+
 ## 👨‍💻 Projects:
 
 | Projects                | Demo                                                                     |
@@ -17,3 +25,5 @@ Collection of different basic vanilla JavaScript projects coded with basic JavaS
 | Menu List               | <a href="https://jsprojects.netlify.app/menu/">Demo</a>                  |
 | Weather App             | <a href="https://jsprojects.netlify.app/weather-app/">Demo</a>           |
 | Tetris Game             | <a href="https://jsprojects.netlify.app/tetrisgame/">Demo</a>            |
+
+# #happyCoding🚀
