@@ -67,6 +67,16 @@ const list = [
     alt: "calendar",
     target: "_blank",
   },
+  {
+    id: 8,
+    title: "Quize App",
+    img: "./img/08.png",
+    text:
+      "This application will be able to load questions from a 3rd party API, track and display high scores, save high scores in Local Storage and so much more",
+    href: "quize",
+    alt: "quize-app",
+    target: "_blank",
+  },
 ];
 
 const container = document.getElementById("main");
