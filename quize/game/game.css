@@ -45,13 +45,14 @@
 
 #progressBar {
   width: 20rem;
-  height: 4rem;
+  height: 2rem;
   border: 0.3rem solid #56a5eb;
   margin-top: 1.5rem ;
+  border-radius: 5rem;
 }
 
 #progressBarFull{
-    height: 3.4rem;
+    height: 1.4rem;
     background-color: #56a5eb;
     width: 0%;
 }
