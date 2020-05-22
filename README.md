@@ -26,5 +26,6 @@ Collection of different basic vanilla JavaScript projects coded with basic JavaS
 | Weather App             | <a href="https://jsprojects.netlify.app/weather-app/">Demo</a>           |
 | Tetris Game             | <a href="https://jsprojects.netlify.app/tetrisgame/">Demo</a>            |
 | Calendar                | <a href="https://jsprojects.netlify.app/calendar/">Demo</a>              |
+| Quize App               | <a href="https://jsprojects.netlify.app/quize/">Demo</a>                 |
 
 # #happyCoding🚀
