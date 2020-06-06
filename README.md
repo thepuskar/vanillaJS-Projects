@@ -15,7 +15,7 @@ Collection of different basic vanilla JavaScript projects coded with basic JavaS
 - Netlify
 - Git/GitHub
 
-## 👨‍💻 Projects: 
+## 👨‍💻 Projects:
 
 | Projects                | Demo                                                                     |
 | ----------------------- | ------------------------------------------------------------------------ |

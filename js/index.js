@@ -2,7 +2,7 @@ const list = [
   {
     id: 1,
     title: "Background Color Picker",
-    img: "./img/01.png",
+    img: "./img/projects/01.png",
     text: "Here, we can change the Background color and see that color code",
     href: "backgroundColorPicker",
     alt: "background color picker",
@@ -11,7 +11,7 @@ const list = [
   {
     id: 2,
     title: "Counter",
-    img: "./img/02.png",
+    img: "./img/projects/02.png",
     text: "In this project, we can Increase, decrease and reset the numbers.",
     href: "simpleCounter",
     alt: "counter",
@@ -20,7 +20,7 @@ const list = [
   {
     id: 3,
     title: "Reviews",
-    img: "./img/03.png",
+    img: "./img/projects/03.png",
     text:
       "Here we can see the different client reviews and even see the radom one.",
     href: "review",
@@ -30,7 +30,7 @@ const list = [
   {
     id: 4,
     title: "Menu",
-    img: "./img/04.png",
+    img: "./img/projects/04.png",
     text:
       "In this project, we can see different menu items and choose that item according to the category.",
     href: "menu",
@@ -40,7 +40,7 @@ const list = [
   {
     id: 5,
     title: "Weather App",
-    img: "./img/05.png",
+    img: "./img/projects/05.png",
     text:
       "Weather app in Vanilla Javascript, CSS, and HTML. I use the Open Weather Map API to make calls to a restful API to return the current weather data.",
     href: "weather-app",
@@ -50,7 +50,7 @@ const list = [
   {
     id: 6,
     title: "Tetris Game",
-    img: "./img/06.jpg",
+    img: "./img/projects/06.jpg",
     text:
       "This is a simple no nonsense version of Tetris game made up of different JavaScript functions and basic html/css",
     href: "tetrisgame",
@@ -60,7 +60,7 @@ const list = [
   {
     id: 7,
     title: "Calendar",
-    img: "./img/07.png",
+    img: "./img/projects/07.png",
     text:
       "A simple, lightweight, vanilla JavaScript calendar that allows you to filter dates, set events in a particular date, enable/disable past dates, and much more.",
     href: "calendar",
@@ -70,7 +70,7 @@ const list = [
   {
     id: 8,
     title: "Quize App",
-    img: "./img/08.png",
+    img: "./img/projects/08.png",
     text:
       "This application will be able to load questions from a 3rd party API, track and display high scores, save high scores in Local Storage and so much more",
     href: "quize",
@@ -79,40 +79,46 @@ const list = [
   },
 ];
 
-const container = document.getElementById("main");
+const container = document.getElementById("item");
 
 list.forEach((result) => {
   const card = document.createElement("div");
   card.classList = "card-body";
 
   const content = `
-<div class="card" style="width: 18rem;" id="card">
-<img src=${result.img} class="card-img-top" alt=${result.alt} />
-<div class="card-body">
-<h5 class="card-title">${result.title}</h5>
-<p class="card-text">
-  ${result.text}
-</p>
-<a
-  href=${result.href}
-  target=${result.target}
-  class="btn btn-primary"
-  >Click to view</a
->
-</div>
-</div>
+<div class="p-4 md:w-1/3 sm:mb-0 mb-6" id=${result.id}>
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img
+                alt=${result.alt}
+                class="object-cover object-center h-full w-full"
+                src=${result.img}
+              />
+            </div>
+            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">
+              ${result.title}
+            </h2>
+            <p class="text-base leading-relaxed mt-2">
+              ${result.text}
+            </p>
+            <a class="text-indigo-500 inline-flex items-center mt-3" href=${result.href} target=${result.target}
+              >View Demo
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
 
 `;
 
   container.innerHTML += content;
-});
-
-//navbar
-const navToggle = document.querySelector(".nav-toggle");
-const links = document.querySelector(".links");
-
-navToggle.addEventListener("click", function () {
-  links.classList.toggle("show-links");
 });
 
 //footer
