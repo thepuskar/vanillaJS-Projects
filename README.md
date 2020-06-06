@@ -13,6 +13,7 @@ Collection of different basic vanilla JavaScript projects coded with basic JavaS
 - Vanillia JavaScript
 - HTML5
 - CSS3
+- Tailwind CSS
 - Netlify
 - Git/GitHub
 
