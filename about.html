@@ -348,12 +348,7 @@
       </div>
     </section>
     <section class="text-gray-700 body-font relative">
-      <form
-        class="container px-5 py-24 mx-auto"
-        name="contact"
-        method="POST"
-        data-netlify="true"
-      >
+      <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-12">
           <h1
             class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
@@ -366,12 +361,18 @@
           </p>
         </div>
         <div class="lg:w-1/2 md:w-2/3 mx-auto">
-          <div class="flex flex-wrap -m-2">
+          <form
+            class="flex flex-wrap -m-2"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+          >
             <div class="p-2 w-1/2">
               <input
                 class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
                 placeholder="Name"
                 type="text"
+                name="name"
               />
             </div>
             <div class="p-2 w-1/2">
@@ -379,13 +380,18 @@
                 class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
                 placeholder="Email"
                 type="email"
+                name="email"
               />
             </div>
             <div class="p-2 w-full">
               <textarea
                 class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block"
                 placeholder="Message"
+                name="message"
               ></textarea>
+            </div>
+            <div class="filed">
+              <div data-netlify-recaptch="true"></div>
             </div>
             <div class="p-2 w-full">
               <button
@@ -395,9 +401,9 @@
                 Submit
               </button>
             </div>
-          </div>
+          </form>
         </div>
-      </form>
+      </div>
     </section>
     <footer class="text-gray-700 body-font">
       <div
