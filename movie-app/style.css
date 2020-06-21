@@ -2,6 +2,14 @@ body {
   background: #eeeeee;
   font-family: "Open Sans", sans-serif;
 }
+* {
+  font-family: "Poppins", sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+/* navbar */
 .form-inline {
   display: inline-block;
 }
@@ -91,4 +99,31 @@ body {
   .form-inline {
     display: block;
   }
+}
+
+/* search movie list */
+
+.movie_card {
+  padding: 0 !important;
+  display: flex;
+  overflow-x: auto;
+  margin: 14px;
+}
+.movie_card::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+}
+.movie_card img {
+  height: 33rem;
+  margin: 5px;
+  cursor: pointer;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.movie_card img:hover {
+  margin: 10px;
+  transform: scale(1.2);
+}
+.movie_info {
+  color: #5e5c5c;
 }
