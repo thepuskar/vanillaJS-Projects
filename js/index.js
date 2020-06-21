@@ -16,7 +16,7 @@ fetch("../data/data.json")
             src=${result.img}
           />
         </div>
-        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">
+        <h2 class="project-title text-xl font-medium title-font text-gray-900 mt-5">
           ${result.title}
         </h2>
         <p class="text-base leading-relaxed mt-2">

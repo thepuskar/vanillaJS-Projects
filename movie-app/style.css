@@ -1,0 +1,94 @@
+body {
+  background: #eeeeee;
+  font-family: "Open Sans", sans-serif;
+}
+.form-inline {
+  display: inline-block;
+}
+.navbar-header.col {
+  padding: 0 !important;
+}
+.navbar {
+  font-size: 14px;
+  background: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid #d6d6d6;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.navbar .navbar-brand {
+  color: #555;
+  padding-left: 0;
+  font-size: 20px;
+  padding-right: 50px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+.navbar .navbar-brand b {
+  font-weight: bold;
+  color: #667eea;
+}
+.navbar ul.nav li {
+  font-size: 96%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar ul.nav li.active a,
+.navbar ul.nav li.active a:hover,
+.navbar ul.nav li.active a:focus {
+  color: #667eea !important;
+  background: transparent !important;
+}
+.search-box {
+  position: relative;
+}
+.search-box input.form-control,
+.search-box .btn {
+  font-size: 14px;
+  border-radius: 2px !important;
+}
+.search-box .input-group-btn {
+  padding-left: 4px;
+}
+.search-box input.form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 8px rgba(240, 79, 1, 0.2);
+}
+.search-box .btn-primary,
+.search-box .btn-primary:active {
+  font-weight: bold;
+  background: #667eea;
+  border-color: #667eea;
+  text-transform: uppercase;
+  min-width: 90px;
+}
+.search-box .btn-primary:focus {
+  outline: none;
+  background: #667eea;
+  box-shadow: 0 0 8px rgba(240, 79, 1, 0.2);
+}
+.search-box .btn span {
+  transform: scale(0.9);
+  display: inline-block;
+}
+.navbar .nav-item i {
+  font-size: 18px;
+}
+
+.navbar .nav-item.open > a {
+  background: none !important;
+}
+
+.navbar .navbar-form {
+  border: none;
+}
+@media (min-width: 992px) {
+  .form-inline .input-group .form-control {
+    width: 225px;
+  }
+}
+@media (max-width: 992px) {
+  .form-inline {
+    display: block;
+  }
+}
