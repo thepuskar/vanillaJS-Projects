@@ -120,10 +120,26 @@ body {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.movie_card img:hover {
-  margin: 10px;
-  transform: scale(1.2);
-}
+
 .movie_info {
   color: #5e5c5c;
+}
+.content {
+  display: none;
+}
+.content button {
+  float: right;
+  margin: 20px;
+}
+.content-display {
+  display: block;
+}
+.content div {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.content div iframe {
+  margin: 10px;
 }
