@@ -26,8 +26,9 @@ Collection of different basic vanilla JavaScript projects coded with basic JavaS
 | Review                  | <a href="https://jsprojects.netlify.app/review/">Demo</a>                |
 | Menu List               | <a href="https://jsprojects.netlify.app/menu/">Demo</a>                  |
 | Weather App             | <a href="https://jsprojects.netlify.app/weather-app/">Demo</a>           |
-| Tetris Game             | <a href="https://jsprojects.netlify.app/tetrisgame/">Demo</a>            |
 | Calendar                | <a href="https://jsprojects.netlify.app/calendar/">Demo</a>              |
 | Quize App               | <a href="https://jsprojects.netlify.app/quize/">Demo</a>                 |
+| Movie App               | <a href="https://jsprojects.netlify.app/movie-app//">Demo</a>            |
+| Tetris Game             | <a href="https://jsprojects.netlify.app/tetrisgame/">Demo</a>            |
 
 # #happyCoding🚀

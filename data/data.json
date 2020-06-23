@@ -44,17 +44,9 @@
     "alt": "weather app",
     "target": "_blank"
   },
+
   {
     "id": 6,
-    "title": "Tetris Game",
-    "img": "./img/projects/06.jpg",
-    "text": "This is a simple no nonsense version of Tetris game made up of different JavaScript functions and basic html/css",
-    "href": "tetrisgame",
-    "alt": "tetrisgame",
-    "target": "_blank"
-  },
-  {
-    "id": 7,
     "title": "Calendar",
     "img": "./img/projects/07.png",
     "text": "A simple, lightweight, vanilla JavaScript calendar that allows you to filter dates, set events in a particular date, enable/disable past dates, and much more.",
@@ -63,12 +55,30 @@
     "target": "_blank"
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "Quize App",
     "img": "./img/projects/08.png",
     "text": "This application will be able to load questions from a 3rd party API, track and display high scores, save high scores in Local Storage and so much more",
     "href": "quize",
     "alt": "quize-app",
+    "target": "_blank"
+  },
+  {
+    "id": 7,
+    "title": "Movie App",
+    "img": "./img/projects/09.png",
+    "text": "This is a simple movie app that uses The Movie Database API to fetch data and we can also search for movies and watch the trailer. ",
+    "href": "movie-app",
+    "alt": "movie-app",
+    "target": "_blank"
+  },
+  {
+    "id": 9,
+    "title": "Tetris Game",
+    "img": "./img/projects/06.jpg",
+    "text": "This is a simple no nonsense version of Tetris game made up of different JavaScript functions and basic html/css",
+    "href": "tetrisgame",
+    "alt": "tetrisgame",
     "target": "_blank"
   }
 ]
