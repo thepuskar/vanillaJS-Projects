@@ -31,4 +31,6 @@ Collection of different basic vanilla JavaScript projects coded with basic JavaS
 | Movie App               | <a href="https://jsprojects.netlify.app/movie-app//">Demo</a>            |
 | Tetris Game             | <a href="https://jsprojects.netlify.app/tetrisgame/">Demo</a>            |
 
+### If you find this repo helpful don't forget to give a star.⭐
+
 # #happyCoding🚀
